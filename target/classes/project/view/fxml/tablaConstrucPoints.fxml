@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="775.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.controller.TotalPointsConstruc">
+   <children>
+      <VBox alignment="CENTER" prefHeight="564.0" prefWidth="545.0">
+         <children>
+            <Label prefHeight="68.0" prefWidth="431.0" text="Total de Puntos de los Constructores" textFill="#861919">
+               <font>
+                  <Font name="Book Antiqua Bold" size="25.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tablaConstrucPoints" prefHeight="449.0" prefWidth="545.0">
+              <columns>
+                <TableColumn fx:id="NombreConstrucPoints" prefWidth="271.33339178562164" text="Nombres" />
+                <TableColumn fx:id="TotalContrucPoints" prefWidth="273.3332214355469" text="Total de Puntos" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</HBox>
